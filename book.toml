@@ -1,0 +1,19 @@
+[book]
+title = "Rust Reference Notes"
+authors = ["deependujha"]
+language = "en"
+src = "src"
+
+[rust]
+edition = "2021"
+
+[output.html]
+default-theme = "light"
+preferred-dark-theme = "ayu"
+site-url = "/rust-refs/"
+git-repository-url = "https://github.com/deependujha/rust-refs"
+edit-url-template = "https://github.com/deependujha/rust-refs/edit/main/{path}"
+
+[output.html.fold]
+enable = true
+level = 1
